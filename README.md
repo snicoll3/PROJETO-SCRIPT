@@ -23,9 +23,7 @@ Para instalar o PandinhaPDFTool, siga estas etapas:
 
 git clone https://github.com/snicoll3/PROJETO-SCRIPT.git
 
-Após isso será necessário extrair com o tar -xzvf PROJETO-SCRIPT.git
-
-Após isso executar o main.sh :)
+Após isso só acessar a pastinha e executar o main.sh :)
 
 ## 🤝 Colaboradores
 
