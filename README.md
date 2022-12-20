@@ -30,3 +30,6 @@ Após isso executar o main.sh :)
 ## 🤝 Colaboradores
 
 <b>Maria Nicolle Ferreira da Silva</b>
+<b>Ítalo Fernando</b>
+<b>Ítalo André</b>
+<b>Jackson</b>
