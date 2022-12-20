@@ -42,7 +42,16 @@ while : ; do
                 PDF=$(echo "$BURST" | cut -d "|" -f 1 )
                 pdftk $PDF burst;;
 
-            "4") pdftk $PDF1 $PDF2 output merged.pdf
+            "4") MERGE=$(
+                yad --center --title="Selecione o arquivo a ser dividido "            \
+                    --width=400 --heigth=400                                    \
+                    --form                                                      \
+                    --field="PDF-1: " ""    \
+                    --field="PDF-2: " ""    \
+                     )
+                    PDF1=$(echo "$MERGE" | cut -d "|" -f 1 )
+                    PDF2=$(echo "$MERGE" | cut -d "|" -f 2 )
+                pdftk $PDF1 $PDF2 output merged.pdf
                 yad --text="Documentos $PDF1 e $PDF2 Mesclados!" --text-align=center;;
 
             "5")    DELETE=$(
