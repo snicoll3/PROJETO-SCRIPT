@@ -1,6 +1,6 @@
 # Pandinha PDFTool
 
-<img src="PROJETO-SCRIPT/PDFtk/images/">
+<img src="/PDFtk/images/panga.png">
 
 ### Ajustes e melhorias
 
